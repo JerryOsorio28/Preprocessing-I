@@ -132,5 +132,99 @@ table {
 }
 html,
 body {
+  display: flex;
   height: 100%;
+  justify-content: center;
+  text-align: justify;
+  font-family: DejaVu Sans Mono, monospace;
+  background-color: gray;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+.mainContainer {
+  width: 880px;
+  height: 100%;
+}
+.mainContainer img {
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+}
+h1 {
+  font-size: 60px;
+  padding: 10px 0;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+h4 {
+  font-weight: bold;
+}
+p {
+  font-size: 15px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  margin: 20px 50px 0 0;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.topContainer {
+  background-color: lightgray;
+  margin: 20px 0;
+  padding: 20px;
+}
+.topContainer .picture {
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+}
+.topContainer p {
+  border-top: 1px solid gray;
+  padding: 20px 0;
+}
+.middleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.middleContainer div {
+  height: 100%;
+  width: 400px;
+  background-color: lightgray;
+  text-align: inherit;
+  padding: 20px;
+}
+.middleContainer p {
+  padding-bottom: 14px;
+}
+.bottomContainer {
+  text-align: left;
+}
+.bottomContainer table {
+  border-top: 1px solid lightgray;
+  background-color: lightgray;
+}
+.bottomContainer th {
+  padding: 15px 15px;
+  font-weight: bold;
+}
+.bottomContainer table tbody tr td {
+  border: 1px solid gray;
+  padding: 15px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightgray;
+  margin-top: 20px;
 }
